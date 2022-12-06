@@ -9,7 +9,7 @@ $dbname = "Login_data";
 $conn = mysqli_connect($servername, $uname, $password, $dbname);
 
 // Check the connection 
-
+// conn sucess
 if($conn == false){
     die('Error:unable to connect DataBase');
 }
